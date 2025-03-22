@@ -1,0 +1,22 @@
+Iden Challenge Instructions
+Welcome to your data extraction challenge. This challenge will test your automation skills.
+
+Your mission is to create a Playwright automation script using Python only that interacts with this application.
+
+Mission Objectives
+Create a Playwright script in Python that first checks for an existing session and attempts to use it.
+If no session exists, authenticate with the application using the provided credentials and saves the session for future use
+Navigates the hidden path to the product table: Navigate through a series of options to reach the product data table, which is hidden several layers deep in the interface.
+Capture all product data from the table, including handling any pagination or dynamic loading.
+Export the harvested data to a structured JSON file for analysis.
+Submit your solution via GitHub repository on the "Submit Script" page.
+Strategies for Excellence
+Implement smart waiting strategies for elements to appear before interaction attempts.
+Develop robust techniques to handle pagination or lazy-loaded content in data tables.
+Properly manages user sessions.
+Create clean, well-documented, and error-resistant Python code that gracefully handles exceptions.
+Submission Process
+Upload your completed Python Playwright script to a GitHub repository.
+Navigate to the "Submit Script" page from the navigation menu.
+Enter your GitHub repository URL in the submission form.
+Submit your solution for review by our team.
